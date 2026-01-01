@@ -58,7 +58,7 @@ function App() {
     },
 
     { id: 3, name:"Thor Odinson", title: "Thor", naam:"thor",
-      description:"Thor is a god of thunder and the son of Odin. He is a member of the Avengers and is the leader of the team. He is a god of thunder and the son of Odin. He is a member of the Avengers and is the leader of the team.",
+      description:"Thor is a god of thunder and the son of Odin. He is a member of the Avengers and is the leader of the team. He is a god of thunder and the son of Odin.",
 
       img1:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.hdqwalls.com%2Fwallpapers%2Fthor-in-thor-rangnarok-movie-1g.jpg&f=1&nofb=1&ipt=3a3afe4bd26fc87ce1c2bcc5b11bb6c4449820ef14b432cf66616bae403c38fc",
       img2:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4581861.jpg&f=1&nofb=1&ipt=55002d8f4475bb205efd771a179e10f4bfdae5a09b83b5ec7b06cbf84c66df7d",
@@ -133,7 +133,7 @@ function App() {
     },
 
     { id: 11, name:"Scott Lang", title: "Ant-Man", naam:"antman",
-      description:"Ant-Man is a superhero that is a member of the Avengers. He is a member of the Avengers and is the leader of the team. Ant-Man is a superhero that is a member of the Avengers. He is a member of the Avengers and is the leader of the team.",
+      description:"Ant-Man is a superhero that is a member of the Avengers. He is a member of the Avengers and is the leader of the team.",
 
       img1:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.vcLl9AvXrSrdvm63L1lSRAHaEP%3Fpid%3DApi&f=1&ipt=d3e7714199b22d9acffe30537e56f59d1374994d6c09fe5b40b709ee4cca4209&ipo=images",
       img2:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.QVGqjaeaA_LjpWK1f7TTvAHaEK%3Fpid%3DApi&f=1&ipt=a3e1a711664d79d92ee66c6b790d4a174618250ea8d206716f6b94ee6ac7a62c&ipo=images",
@@ -169,7 +169,7 @@ function App() {
 
     { id: 15, name:"Nick Fury", title: "War Machine", naam:"war_machine", 
       
-      description:"Nick Fury is a former member of the S.H.I.E.L.D. and the Falcon Corps. He is a former agent of S.H.I.E.L.D. and a former member of the Avengers. He is the leader of the Avengers, and is the main antagonist of the Marvel Cinematic Universe.",
+      description:"Nick Fury is a former member of the S.H.I.E.L.D. and the Falcon Corps. He is a former agent of S.H.I.E.L.D. and a former member of the Avengers.",
       img1:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.DVJaG9yImTAqISbkPIvezwHaEK%3Fpid%3DApi&f=1&ipt=409b4dcc074fd0968e7eafd11cb21d0a06dbb5a0e1acd32f72873eb4999251f7&ipo=images",
       img2:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.HktS15k-B-yEHWePjcGUNQHaE1%3Fpid%3DApi&f=1&ipt=e4c578b354a3362e32e7ac28028940a07d8405229bf853e324562850f08158fd&ipo=images",
       img3:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.UqauEYyxW3t3nKlnweitmAHaEK%3Fpid%3DApi&f=1&ipt=9eccda8ae64d9dfb7b371cdd4b82a959f8405a1f7696b2866eeeeb5d9b69fa3b&ipo=images",
@@ -184,6 +184,8 @@ function App() {
       img3:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.jLvBs6P4xTs-t5A6_l2FtwHaDt%3Fpid%3DApi&f=1&ipt=09f064cbbe39d2d19d27589b5641d76ce3d0438d5bf775a1f69d63223a57ad72&ipo=images",
       img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngmart.com%2Ffiles%2F22%2FCaptain-Marvel-2019-Movie-PNG-Clipart.png&f=1&nofb=1&ipt=34709826b5420a8ab56d08acd2570395f381fd905bbf46041d18ddbe80f5058c" 
     },
+
+    
 
   ];
 
@@ -235,7 +237,7 @@ function App() {
     width: active === id ? "100%" : "",
     position: active === id ? "absolute" : "",
     left: active === id ? "40%" : "",
-    top: active === id ? "70%" : "",
+    top: active === id ? "65%" : "",
     display: active === id ? "block" : "none",
     transform: active === id ? "translateY(-50%)" : "",
     transition: "height 0.3s ease, transform 0.3s ease",
@@ -271,6 +273,7 @@ function App() {
             <p>{card.description}</p>
           </div>
           <div className="clip" style={getClipStyle(card.id)}>
+            <h2>Clips :</h2><br />
             <img src={card.img1} alt="" />
             <img src={card.img2} alt="" />
             <img src={card.img3} alt="" />

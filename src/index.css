@@ -6,7 +6,7 @@
 }
 
 html, body, #root {
-  background: linear-gradient(black, rgb(91, 91, 91));
+  background-color: black;
   height: 100%;
   width: 100%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serifk;
@@ -15,17 +15,22 @@ html, body, #root {
 nav {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 0px 30px;
   justify-content: space-between;
   background-color: transparent;
   height: 80px;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
 }
 nav .logo {
   font-size: 24px;
   display: flex;
   align-items: center;
   margin-left: -20px;
+  margin-top: 10px;
 }
 nav .logo img {
   height: 200px;
@@ -52,9 +57,11 @@ nav ul li:hover, nav ul li i {
   position: relative;
 }
 .home h3 {
+  opacity: 0.5;
+  z-index: 1;
   position: absolute;
   left: 50%;
-  top: -5%;
+  top: 5%;
   transform: translate(-50%, 5%);
   font-size: 200px;
   font-weight: 700;
@@ -104,16 +111,56 @@ nav ul li:hover, nav ul li i {
     -webkit-text-stroke-color: #ff0000;
   }
 }
+.home .buttons {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: 11;
+  background-color: rgb(2, 37, 25);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.home .buttons:active {
+  background-color: #ffea00;
+  color: black;
+  scale: 1.5;
+}
+.home .video {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.home .video video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.4;
+}
+.home .video .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 80%);
+}
 .home .container {
+  position: relative;
+  z-index: 3;
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
   flex-direction: row;
   align-items: end;
   justify-content: start;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 0px);
   width: 100%;
-  padding: 10px 30px;
+  padding: 10px 10px;
   gap: 20px;
 }
 .home .container::-webkit-scrollbar {
@@ -140,7 +187,7 @@ nav ul li:hover, nav ul li i {
 .home .container .iranman:hover, .home .container .captainamerica:hover, .home .container .thor:hover, .home .container .hulk:hover, .home .container .docterstrange:hover, .home .container .spiderman:hover, .home .container .blackwidow:hover, .home .container .hawkeye:hover, .home .container .vision:hover, .home .container .blackpanther:hover, .home .container .antman:hover, .home .container .scarletwitch:hover, .home .container .falcon:hover, .home .container .wintersoldier:hover, .home .container .war_machine:hover, .home .container .captainmarvel:hover {
   transform: scale(1.1);
 }
-.home .container .iranman img, .home .container .captainamerica img, .home .container .thor img, .home .container .hulk img, .home .container .docterstrange img, .home .container .spiderman img, .home .container .blackwidow img, .home .container .hawkeye img, .home .container .vision img, .home .container .blackpanther img, .home .container .antman img, .home .container .scarletwitch img, .home .container .falcon img, .home .container .wintersoldier img, .home .container .war_machine img, .home .container .captainmarvel img {
+.home .container .iranman .image, .home .container .captainamerica .image, .home .container .thor .image, .home .container .hulk .image, .home .container .docterstrange .image, .home .container .spiderman .image, .home .container .blackwidow .image, .home .container .hawkeye .image, .home .container .vision .image, .home .container .blackpanther .image, .home .container .antman .image, .home .container .scarletwitch .image, .home .container .falcon .image, .home .container .wintersoldier .image, .home .container .war_machine .image, .home .container .captainmarvel .image {
   height: 130%;
   width: auto;
   -o-object-fit: cover;
@@ -150,7 +197,7 @@ nav ul li:hover, nav ul li i {
   left: 25%;
   transition: transform 0.5s ease;
 }
-.home .container .iranman img:hover, .home .container .captainamerica img:hover, .home .container .thor img:hover, .home .container .hulk img:hover, .home .container .docterstrange img:hover, .home .container .spiderman img:hover, .home .container .blackwidow img:hover, .home .container .hawkeye img:hover, .home .container .vision img:hover, .home .container .blackpanther img:hover, .home .container .antman img:hover, .home .container .scarletwitch img:hover, .home .container .falcon img:hover, .home .container .wintersoldier img:hover, .home .container .war_machine img:hover, .home .container .captainmarvel img:hover {
+.home .container .iranman .image:hover, .home .container .captainamerica .image:hover, .home .container .thor .image:hover, .home .container .hulk .image:hover, .home .container .docterstrange .image:hover, .home .container .spiderman .image:hover, .home .container .blackwidow .image:hover, .home .container .hawkeye .image:hover, .home .container .vision .image:hover, .home .container .blackpanther .image:hover, .home .container .antman .image:hover, .home .container .scarletwitch .image:hover, .home .container .falcon .image:hover, .home .container .wintersoldier .image:hover, .home .container .war_machine .image:hover, .home .container .captainmarvel .image:hover {
   transform: scale(1.2);
 }
 .home .container .iranman .info, .home .container .captainamerica .info, .home .container .thor .info, .home .container .hulk .info, .home .container .docterstrange .info, .home .container .spiderman .info, .home .container .blackwidow .info, .home .container .hawkeye .info, .home .container .vision .info, .home .container .blackpanther .info, .home .container .antman .info, .home .container .scarletwitch .info, .home .container .falcon .info, .home .container .wintersoldier .info, .home .container .war_machine .info, .home .container .captainmarvel .info {
@@ -159,12 +206,25 @@ nav ul li:hover, nav ul li i {
   left: 10px;
 }
 .home .container .iranman .info h2, .home .container .captainamerica .info h2, .home .container .thor .info h2, .home .container .hulk .info h2, .home .container .docterstrange .info h2, .home .container .spiderman .info h2, .home .container .blackwidow .info h2, .home .container .hawkeye .info h2, .home .container .vision .info h2, .home .container .blackpanther .info h2, .home .container .antman .info h2, .home .container .scarletwitch .info h2, .home .container .falcon .info h2, .home .container .wintersoldier .info h2, .home .container .war_machine .info h2, .home .container .captainmarvel .info h2 {
-  font-size: 45px;
   line-height: 0.9;
 }
 .home .container .iranman .info p, .home .container .captainamerica .info p, .home .container .thor .info p, .home .container .hulk .info p, .home .container .docterstrange .info p, .home .container .spiderman .info p, .home .container .blackwidow .info p, .home .container .hawkeye .info p, .home .container .vision .info p, .home .container .blackpanther .info p, .home .container .antman .info p, .home .container .scarletwitch .info p, .home .container .falcon .info p, .home .container .wintersoldier .info p, .home .container .war_machine .info p, .home .container .captainmarvel .info p {
   font-size: 24px;
   font-family: cursive;
+}
+.home .container .iranman .clip, .home .container .captainamerica .clip, .home .container .thor .clip, .home .container .hulk .clip, .home .container .docterstrange .clip, .home .container .spiderman .clip, .home .container .blackwidow .clip, .home .container .hawkeye .clip, .home .container .vision .clip, .home .container .blackpanther .clip, .home .container .antman .clip, .home .container .scarletwitch .clip, .home .container .falcon .clip, .home .container .wintersoldier .clip, .home .container .war_machine .clip, .home .container .captainmarvel .clip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.home .container .iranman .clip img, .home .container .captainamerica .clip img, .home .container .thor .clip img, .home .container .hulk .clip img, .home .container .docterstrange .clip img, .home .container .spiderman .clip img, .home .container .blackwidow .clip img, .home .container .hawkeye .clip img, .home .container .vision .clip img, .home .container .blackpanther .clip img, .home .container .antman .clip img, .home .container .scarletwitch .clip img, .home .container .falcon .clip img, .home .container .wintersoldier .clip img, .home .container .war_machine .clip img, .home .container .captainmarvel .clip img {
+  width: 250px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 .home .container .iranman {
   background: linear-gradient(45deg, #5f0a0a, #b91d1d);

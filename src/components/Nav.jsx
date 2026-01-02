@@ -6,7 +6,7 @@ const Nav = () => {
         <img src="./Avangerlogo.png" alt="" />
       </div>
       <ul>
-        <li>All Characters <i class="ri-menu-5-line"></i></li>
+        <li>All Characters <i className="ri-menu-5-line"></i></li>
       </ul>
     </nav>
   )

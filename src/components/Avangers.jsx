@@ -185,7 +185,41 @@ function App() {
       img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngmart.com%2Ffiles%2F22%2FCaptain-Marvel-2019-Movie-PNG-Clipart.png&f=1&nofb=1&ipt=34709826b5420a8ab56d08acd2570395f381fd905bbf46041d18ddbe80f5058c" 
     },
 
-    
+    { id: 17, name:"Gamora", title: "Green lady", naam:"gamora", 
+      
+      description:"Gamora is a member of the Guardians of the Galaxy. She is a member of the Guardians of the Galaxy. She is a member of the Guardians of the Galaxy.",
+      img1:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.tEJavxydsyNySwCnV6j3QgHaHa%3Fpid%3DApi&f=1&ipt=d07c585a4ae64ad4024a76ac733d4d41b43704df4163c5444ef9a08d33c601e2&ipo=images",
+      img2:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.bRxeOuV6zYiZM6WeByUrAgHaEK%3Fpid%3DApi&f=1&ipt=70a0e81f4f06a2f2ab5114e750fa29eee34deb7a9355ac56073067bdccea29f4&ipo=images",
+      img3:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.1vp2NAnb6iTQEo2BlSyh8wHaEI%3Fpid%3DApi&f=1&ipt=889ea6277b368bf61998a2642e83a554275ffa37ba6d7d70ee6c6e87967eabf4&ipo=images",
+      img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngarts.com%2Ffiles%2F4%2FGamora-PNG-Background-Image.png&f=1&nofb=1&ipt=2accaa186031d86e4f3425d85b7290edf30420712a2990c8966868c4c91198b2" 
+    },
+
+    { id: 18, name:"Rocket", title: "Raccoon", naam:"rocket", 
+      
+      description:"Rocket Raccoon is a member of the Avengers known for his skills as a weapons expert and tactical genius. He participates in significant battles, often teams up with other heroes like Groot and Thor.",
+      img1:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.ocLTsoCRdJ2CBvqb5VU3aAHaEc%3Fpid%3DApi&f=1&ipt=51b191ce8c5e6a87396c3fc5c6e6ea7bc1ad8ff37aa7b1769a3dd11251d6a4ff&ipo=images",
+      img2:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.jcuVvb6Vzy7silCDPSxkkQHaEz%3Fpid%3DApi&f=1&ipt=0555a617afabe356de365e6ad95777860771a3a91f1ececa8e256c7598287e3c&ipo=images",
+      img3:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.BTcQXxu10U3VPQic0M9-yQHaEE%3Fpid%3DApi&f=1&ipt=cea9cbb50da85a43798d40d620220fb588357cb6b90da68efb67cd4998eb168a&ipo=images",
+      img:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/627fe721-846f-4f75-ac61-111ca00b27dd/dd6ahsi-738f1b5f-e28a-4526-8ed9-2036a1539195.png/v1/fit/w_828,h_1568/quantum_suit_rocket___avengers_end_game__render__by_alanmac95_dd6ahsi-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjQyMyIsInBhdGgiOiIvZi82MjdmZTcyMS04NDZmLTRmNzUtYWM2MS0xMTFjYTAwYjI3ZGQvZGQ2YWhzaS03MzhmMWI1Zi1lMjhhLTQ1MjYtOGVkOS0yMDM2YTE1MzkxOTUucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.73gl2Gjdt4Pz84AlCnW3Ysx0ZJDsphystL8nKZBk5Lw" 
+    },
+
+    { id: 19, name:"Groot", title: "Groot Tree", naam:"groot", 
+      
+      description:"Groot is a fictional character in the Marvel Cinematic Universe, known as a sentient tree-like creature and a member of the Guardians of the Galaxy.",
+      img1:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.D2qtmkv7YceoKLBwGQHyMQHaEK%3Fpid%3DApi&f=1&ipt=d65bc8f81bb92e35f3377f06f91b6ed365585718b4ba0717d78f6f1864ebe52b&ipo=images",
+      img2:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.Wsihu_IRdWVTqf8TwcyM5AHaDt%3Fpid%3DApi&f=1&ipt=731269d5e262fcb6bba24bdd52b5154959b5072371394915f72ca8cb90f650c8&ipo=images",
+      img3:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.J86NLxZ2rYSrzQU1Khy9qgHaEK%3Fpid%3DApi&f=1&ipt=ac55315a3569ec0a0001baadeee76c354063bebd2984f3e63a79b112fc675fc7&ipo=images",
+      img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngimg.com%2Fuploads%2Fgroot%2Fgroot_PNG46.png&f=1&nofb=1&ipt=e238887881a710fcdce36e5f1acbafb99221e91331568aa33e38504e324b9940" 
+    },
+
+    { id: 20, name:"Drax", title: "Bald man", naam:"darx", 
+      
+      description:"Drax is a fictional character in the Marvel Cinematic Universe, known as a bald man and a member of the Guardians of the Galaxy.",
+      img1:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.explicit.bing.net%2Fth%2Fid%2FOIP.k483l_BLRFEe4uxwgj_AbAHaE8%3Fpid%3DApi&f=1&ipt=8176c7b57252731e78c4b3c811b619be4454f7400e7f3c9cde1dc69bd1178e5e&ipo=images",
+      img2:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.9b8aP8Xa-aqf0ThNfoKsgAHaD2%3Fpid%3DApi&f=1&ipt=8199723d872c383f62e7c98ed6f17a6b8f281266bb1f133344ee20ec039c4fa2&ipo=images",
+      img3:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.3Ulv225qJj7-FiQdI9xtOwHaEK%3Fpid%3DApi&f=1&ipt=90da588403302f45548c3c09d8a004499915b129f5f7abd5a6a44cb39da08c91&ipo=images",
+      img:"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F4%2FDrax.png&f=1&nofb=1&ipt=8909c0a4317aa7af30ec364c23b8e905eac9179f6e771ce765338557853a1319" 
+    },
 
   ];
 

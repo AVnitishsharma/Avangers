@@ -175,7 +175,7 @@ nav ul li:hover, nav ul li i {
   border-radius: 10px;
   border: 3px solid #000000;
 }
-.home .container .iranman, .home .container .captainamerica, .home .container .thor, .home .container .hulk, .home .container .docterstrange, .home .container .spiderman, .home .container .blackwidow, .home .container .hawkeye, .home .container .vision, .home .container .blackpanther, .home .container .antman, .home .container .scarletwitch, .home .container .falcon, .home .container .wintersoldier, .home .container .war_machine, .home .container .captainmarvel {
+.home .container .iranman, .home .container .captainamerica, .home .container .thor, .home .container .hulk, .home .container .docterstrange, .home .container .spiderman, .home .container .blackwidow, .home .container .hawkeye, .home .container .vision, .home .container .blackpanther, .home .container .antman, .home .container .scarletwitch, .home .container .falcon, .home .container .wintersoldier, .home .container .war_machine, .home .container .captainmarvel, .home .container .gamora, .home .container .rocket, .home .container .groot, .home .container .darx {
   height: 350px;
   min-width: 350px;
   position: relative;
@@ -184,10 +184,10 @@ nav ul li:hover, nav ul li i {
   transform-origin: bottom;
   border: 1px solid white;
 }
-.home .container .iranman:hover, .home .container .captainamerica:hover, .home .container .thor:hover, .home .container .hulk:hover, .home .container .docterstrange:hover, .home .container .spiderman:hover, .home .container .blackwidow:hover, .home .container .hawkeye:hover, .home .container .vision:hover, .home .container .blackpanther:hover, .home .container .antman:hover, .home .container .scarletwitch:hover, .home .container .falcon:hover, .home .container .wintersoldier:hover, .home .container .war_machine:hover, .home .container .captainmarvel:hover {
+.home .container .iranman:hover, .home .container .captainamerica:hover, .home .container .thor:hover, .home .container .hulk:hover, .home .container .docterstrange:hover, .home .container .spiderman:hover, .home .container .blackwidow:hover, .home .container .hawkeye:hover, .home .container .vision:hover, .home .container .blackpanther:hover, .home .container .antman:hover, .home .container .scarletwitch:hover, .home .container .falcon:hover, .home .container .wintersoldier:hover, .home .container .war_machine:hover, .home .container .captainmarvel:hover, .home .container .gamora:hover, .home .container .rocket:hover, .home .container .groot:hover, .home .container .darx:hover {
   transform: scale(1.1);
 }
-.home .container .iranman .image, .home .container .captainamerica .image, .home .container .thor .image, .home .container .hulk .image, .home .container .docterstrange .image, .home .container .spiderman .image, .home .container .blackwidow .image, .home .container .hawkeye .image, .home .container .vision .image, .home .container .blackpanther .image, .home .container .antman .image, .home .container .scarletwitch .image, .home .container .falcon .image, .home .container .wintersoldier .image, .home .container .war_machine .image, .home .container .captainmarvel .image {
+.home .container .iranman .image, .home .container .captainamerica .image, .home .container .thor .image, .home .container .hulk .image, .home .container .docterstrange .image, .home .container .spiderman .image, .home .container .blackwidow .image, .home .container .hawkeye .image, .home .container .vision .image, .home .container .blackpanther .image, .home .container .antman .image, .home .container .scarletwitch .image, .home .container .falcon .image, .home .container .wintersoldier .image, .home .container .war_machine .image, .home .container .captainmarvel .image, .home .container .gamora .image, .home .container .rocket .image, .home .container .groot .image, .home .container .darx .image {
   height: 130%;
   width: auto;
   -o-object-fit: cover;
@@ -197,28 +197,28 @@ nav ul li:hover, nav ul li i {
   left: 25%;
   transition: transform 0.5s ease;
 }
-.home .container .iranman .image:hover, .home .container .captainamerica .image:hover, .home .container .thor .image:hover, .home .container .hulk .image:hover, .home .container .docterstrange .image:hover, .home .container .spiderman .image:hover, .home .container .blackwidow .image:hover, .home .container .hawkeye .image:hover, .home .container .vision .image:hover, .home .container .blackpanther .image:hover, .home .container .antman .image:hover, .home .container .scarletwitch .image:hover, .home .container .falcon .image:hover, .home .container .wintersoldier .image:hover, .home .container .war_machine .image:hover, .home .container .captainmarvel .image:hover {
+.home .container .iranman .image:hover, .home .container .captainamerica .image:hover, .home .container .thor .image:hover, .home .container .hulk .image:hover, .home .container .docterstrange .image:hover, .home .container .spiderman .image:hover, .home .container .blackwidow .image:hover, .home .container .hawkeye .image:hover, .home .container .vision .image:hover, .home .container .blackpanther .image:hover, .home .container .antman .image:hover, .home .container .scarletwitch .image:hover, .home .container .falcon .image:hover, .home .container .wintersoldier .image:hover, .home .container .war_machine .image:hover, .home .container .captainmarvel .image:hover, .home .container .gamora .image:hover, .home .container .rocket .image:hover, .home .container .groot .image:hover, .home .container .darx .image:hover {
   transform: scale(1.2);
 }
-.home .container .iranman .info, .home .container .captainamerica .info, .home .container .thor .info, .home .container .hulk .info, .home .container .docterstrange .info, .home .container .spiderman .info, .home .container .blackwidow .info, .home .container .hawkeye .info, .home .container .vision .info, .home .container .blackpanther .info, .home .container .antman .info, .home .container .scarletwitch .info, .home .container .falcon .info, .home .container .wintersoldier .info, .home .container .war_machine .info, .home .container .captainmarvel .info {
+.home .container .iranman .info, .home .container .captainamerica .info, .home .container .thor .info, .home .container .hulk .info, .home .container .docterstrange .info, .home .container .spiderman .info, .home .container .blackwidow .info, .home .container .hawkeye .info, .home .container .vision .info, .home .container .blackpanther .info, .home .container .antman .info, .home .container .scarletwitch .info, .home .container .falcon .info, .home .container .wintersoldier .info, .home .container .war_machine .info, .home .container .captainmarvel .info, .home .container .gamora .info, .home .container .rocket .info, .home .container .groot .info, .home .container .darx .info {
   position: absolute;
   bottom: 10px;
   left: 10px;
 }
-.home .container .iranman .info h2, .home .container .captainamerica .info h2, .home .container .thor .info h2, .home .container .hulk .info h2, .home .container .docterstrange .info h2, .home .container .spiderman .info h2, .home .container .blackwidow .info h2, .home .container .hawkeye .info h2, .home .container .vision .info h2, .home .container .blackpanther .info h2, .home .container .antman .info h2, .home .container .scarletwitch .info h2, .home .container .falcon .info h2, .home .container .wintersoldier .info h2, .home .container .war_machine .info h2, .home .container .captainmarvel .info h2 {
+.home .container .iranman .info h2, .home .container .captainamerica .info h2, .home .container .thor .info h2, .home .container .hulk .info h2, .home .container .docterstrange .info h2, .home .container .spiderman .info h2, .home .container .blackwidow .info h2, .home .container .hawkeye .info h2, .home .container .vision .info h2, .home .container .blackpanther .info h2, .home .container .antman .info h2, .home .container .scarletwitch .info h2, .home .container .falcon .info h2, .home .container .wintersoldier .info h2, .home .container .war_machine .info h2, .home .container .captainmarvel .info h2, .home .container .gamora .info h2, .home .container .rocket .info h2, .home .container .groot .info h2, .home .container .darx .info h2 {
   line-height: 0.9;
 }
-.home .container .iranman .info p, .home .container .captainamerica .info p, .home .container .thor .info p, .home .container .hulk .info p, .home .container .docterstrange .info p, .home .container .spiderman .info p, .home .container .blackwidow .info p, .home .container .hawkeye .info p, .home .container .vision .info p, .home .container .blackpanther .info p, .home .container .antman .info p, .home .container .scarletwitch .info p, .home .container .falcon .info p, .home .container .wintersoldier .info p, .home .container .war_machine .info p, .home .container .captainmarvel .info p {
+.home .container .iranman .info p, .home .container .captainamerica .info p, .home .container .thor .info p, .home .container .hulk .info p, .home .container .docterstrange .info p, .home .container .spiderman .info p, .home .container .blackwidow .info p, .home .container .hawkeye .info p, .home .container .vision .info p, .home .container .blackpanther .info p, .home .container .antman .info p, .home .container .scarletwitch .info p, .home .container .falcon .info p, .home .container .wintersoldier .info p, .home .container .war_machine .info p, .home .container .captainmarvel .info p, .home .container .gamora .info p, .home .container .rocket .info p, .home .container .groot .info p, .home .container .darx .info p {
   font-size: 24px;
   font-family: cursive;
 }
-.home .container .iranman .clip, .home .container .captainamerica .clip, .home .container .thor .clip, .home .container .hulk .clip, .home .container .docterstrange .clip, .home .container .spiderman .clip, .home .container .blackwidow .clip, .home .container .hawkeye .clip, .home .container .vision .clip, .home .container .blackpanther .clip, .home .container .antman .clip, .home .container .scarletwitch .clip, .home .container .falcon .clip, .home .container .wintersoldier .clip, .home .container .war_machine .clip, .home .container .captainmarvel .clip {
+.home .container .iranman .clip, .home .container .captainamerica .clip, .home .container .thor .clip, .home .container .hulk .clip, .home .container .docterstrange .clip, .home .container .spiderman .clip, .home .container .blackwidow .clip, .home .container .hawkeye .clip, .home .container .vision .clip, .home .container .blackpanther .clip, .home .container .antman .clip, .home .container .scarletwitch .clip, .home .container .falcon .clip, .home .container .wintersoldier .clip, .home .container .war_machine .clip, .home .container .captainmarvel .clip, .home .container .gamora .clip, .home .container .rocket .clip, .home .container .groot .clip, .home .container .darx .clip {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.home .container .iranman .clip img, .home .container .captainamerica .clip img, .home .container .thor .clip img, .home .container .hulk .clip img, .home .container .docterstrange .clip img, .home .container .spiderman .clip img, .home .container .blackwidow .clip img, .home .container .hawkeye .clip img, .home .container .vision .clip img, .home .container .blackpanther .clip img, .home .container .antman .clip img, .home .container .scarletwitch .clip img, .home .container .falcon .clip img, .home .container .wintersoldier .clip img, .home .container .war_machine .clip img, .home .container .captainmarvel .clip img {
+.home .container .iranman .clip img, .home .container .captainamerica .clip img, .home .container .thor .clip img, .home .container .hulk .clip img, .home .container .docterstrange .clip img, .home .container .spiderman .clip img, .home .container .blackwidow .clip img, .home .container .hawkeye .clip img, .home .container .vision .clip img, .home .container .blackpanther .clip img, .home .container .antman .clip img, .home .container .scarletwitch .clip img, .home .container .falcon .clip img, .home .container .wintersoldier .clip img, .home .container .war_machine .clip img, .home .container .captainmarvel .clip img, .home .container .gamora .clip img, .home .container .rocket .clip img, .home .container .groot .clip img, .home .container .darx .clip img {
   width: 250px;
   height: 200px;
   -o-object-fit: cover;
@@ -273,4 +273,16 @@ nav ul li:hover, nav ul li i {
 }
 .home .container .captainmarvel {
   background: linear-gradient(45deg, #003566, #ffc300);
+}
+.home .container .gamora {
+  background: linear-gradient(45deg, #038f0f, #685e05);
+}
+.home .container .rocket {
+  background: linear-gradient(45deg, #000000, #59168d);
+}
+.home .container .groot {
+  background: linear-gradient(45deg, #00aeae, #00ac56);
+}
+.home .container .darx {
+  background: linear-gradient(45deg, #880a0a, #cbacac);
 }/*# sourceMappingURL=index.css.map */

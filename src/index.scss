@@ -174,7 +174,7 @@ nav{
       border: 3px solid #000000;
     }
 
-    .iranman, .captainamerica , .thor, .hulk, .docterstrange, .spiderman, .blackwidow, .hawkeye, .vision, .blackpanther, .antman, .scarletwitch, .falcon, .wintersoldier, .war_machine, .captainmarvel{
+    .iranman, .captainamerica , .thor, .hulk, .docterstrange, .spiderman, .blackwidow, .hawkeye, .vision, .blackpanther, .antman, .scarletwitch, .falcon, .wintersoldier, .war_machine, .captainmarvel, .gamora, .rocket, .groot, .darx{
       height: 350px;
       min-width: 350px;
       position: relative;
@@ -242,6 +242,10 @@ nav{
     .wintersoldier { background: linear-gradient(45deg, #212529, #495057); }
     .war_machine { background: linear-gradient(45deg, #343a40, #6c757d); }
     .captainmarvel { background: linear-gradient(45deg, #003566, #ffc300); }
+    .gamora { background: linear-gradient(45deg, #038f0f, #685e05); }
+    .rocket { background: linear-gradient(45deg, #000000, #59168d); }
+    .groot { background: linear-gradient(45deg, #00aeae, #00ac56); }
+    .darx { background: linear-gradient(45deg, #880a0a, #cbacac); }
   }
 
 }
